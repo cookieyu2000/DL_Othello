@@ -1,0 +1,14 @@
+# othello/bots/DeepLearning/models
+games_board.txt
+model.txt
+alphazero.txt
+othello/bots/DeepLearning/Alphainit.py
+othello/bots/DeepLearning/AlphaZero.py
+othello/bots/DeepLearning/models
+# Ignore all __pycache__ directories
+**/__pycache__/
+
+# Ignore all .pyc files
+*.pyc
+
+
