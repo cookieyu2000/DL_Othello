@@ -1,6 +1,6 @@
 from othello.OthelloGame import OthelloGame
 from othello.bots.Random import BOT as RandomBOT
-from othello.bots.DeepLearning.mcts_treenode import MCTS_BOT
+
 
 
 
@@ -24,7 +24,7 @@ def main():
     bot1 = RandomBOT()
 
     bot2_name = "MCTS_BOT"
-    bot2 = MCTS_BOT(c_uct=3, n_playout=300, n=BOARD_SIZE, time_limit=2, name=bot2_name)
+    bot2 = RandomBOT()
 
     for i in range(n_game):
         print("Game {}".format(i+1))

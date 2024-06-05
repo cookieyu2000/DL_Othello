@@ -14,9 +14,9 @@ BOARD_SIZE = 10
 bot = BOT(board_size=BOARD_SIZE)
 
 args = {
-    'num_of_generate_data_for_train': 1000,
+    'num_of_generate_data_for_train': 500,
     'epochs': 30,
-    'batch_size': 512,
+    'batch_size': 256,
     'verbose': True,
     'patience': 10,
 }
